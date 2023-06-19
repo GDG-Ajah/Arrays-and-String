@@ -44,11 +44,3 @@ EXERCISE 2
 * Leetcode learn card Array 101
 * Skip binary search. 
 * Use a loop to find elements (linear search)
-
-
-EXERCISE 3
-
-* Leetcode learn card Array 101
-* Skip binary search. 
-* Use a loop to find elements (linear search)
-
