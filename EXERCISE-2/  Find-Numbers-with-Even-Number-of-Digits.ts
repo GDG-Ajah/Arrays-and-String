@@ -25,8 +25,18 @@ Constraints:
 
 1 <= nums.length <= 500
 1 <= nums[i] <= 105
-   Hide Hint #1  
+
+Hint 1  
 How to compute the number of digits of a number ?
-   Hide Hint #2  
+
+Hint 2  
 Divide the number by 10 again and again to get the number of digits.
 */
+
+function findNumbers(nums: number[]): number {
+    let count = 0;
+    for (let i = 0; i < nums.length; i++) {
+        count += String(nums[i]).length % 2 === 0 ? 1 : 0;
+    }
+    return count;
+}
