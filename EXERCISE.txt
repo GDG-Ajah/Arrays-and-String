@@ -1,3 +1,5 @@
+EXERCISE 1
+
 * Implement a dynamic array in your chosen language with the following operations
 * Add(val)
 * An element to the end of the array. 
@@ -35,3 +37,18 @@ array.set(1, 200) -> returns True
 array.get(1) -> returns 200
 array.get(7) -> throws an exception
 array.set(8, 40) -> throws an exception
+
+
+EXERCISE 2
+
+* Leetcode learn card Array 101
+* Skip binary search. 
+* Use a loop to find elements (linear search)
+
+
+EXERCISE 3
+
+* Leetcode learn card Array 101
+* Skip binary search. 
+* Use a loop to find elements (linear search)
+
