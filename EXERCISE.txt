@@ -6,3 +6,32 @@
 * Set(i, val) - sets the value at index i to val. throw exception if out of bounds.
 * Size() - returns the size of the array
 * Capacity() - returns the capacity of the array
+
+
+
+EXERCISE 1 TESTING
+
+array = DynamicArray() - creates a dynamic array of capacity 1
+array.size() -> returns 0
+array.capacity() -> returns 1
+array.add(1)
+array.size() -> returns 1
+array.capacity() -> returns 1
+array.add(2)
+array.size() -> returns 2
+array.capacity() -> returns 2
+array.add(3)
+array.size() -> returns 3
+array.capacity -> returns 4
+array.add(4)
+
+array.size() -> returns 4
+array.capacity -> return 4
+array.add(5)
+array.size() -> returns 5
+array.capacity -> returns 8
+array.get(1) -> returns 2
+array.set(1, 200) -> returns True
+array.get(1) -> returns 200
+array.get(7) -> throws an exception
+array.set(8, 40) -> throws an exception
